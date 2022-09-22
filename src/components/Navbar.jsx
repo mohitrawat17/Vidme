@@ -7,7 +7,7 @@ import Searchbar from './Searchbar';
 const Navbar = () =>(
     <Stack direction="row" p={2} alignItems="center" sx={{position:'sticky',background:'black', justifyContent:'space-between'}}>
     <Link to="/" style={{ display:'flex', alignItems:'center'}}>
-      <img src="https://www.freeiconspng.com/uploads/youtube-logo-png-15.png" height={45} alt="logo"  />
+      <img src="https://www.freeiconspng.com/uploads/youtube-logo-png-picture-2.png" height={50} width={115} alt="logo"  />
     </Link>
     <Searchbar/>
     </Stack>
